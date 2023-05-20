@@ -1,0 +1,112 @@
+.dashboard-avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    background: #eee;
+    border: 1px solid rgba(2, 38, 68, 0.6);
+}
+
+
+footer{
+    background: #fff;
+}
+
+label,
+input[type="checkbox"]
+{
+    cursor: pointer;
+}
+.form-group{
+    margin: 20px 0;
+}
+
+
+.avatar{
+    width: 80px ;
+    height: 80px ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    background: #eee;
+    border: 1px solid rgba(2, 38, 68, 0.6);
+}
+
+.avatar-2{
+    width: 50px !important ;
+    height: 50px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+    background: #eee;
+    border: 1px solid rgba(2, 38, 68, 0.6);
+}
+
+
+.success_process{
+    background:rgb(25,135,84);
+    color: #fff;
+}
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+  text-align: center;
+  vertical-align: middle !important;
+
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+.app-content{
+    padding: 10px 0;
+}
+
+
+
+.accordion>.card>.card-header button{
+
+    position: relative;
+}
+
+.accordion .card .card-header button::after{
+    display: block;
+    font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f107";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+
+
+.image-preview-container img{
+     max-width: 100%;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
+
+
