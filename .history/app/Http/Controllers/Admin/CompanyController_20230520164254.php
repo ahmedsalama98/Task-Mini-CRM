@@ -43,6 +43,8 @@ class CompanyController extends Controller
             ->when($request->to, function ($q) use ($request) {
                 return $q->whereDate('created_at', '<=', $request->to);
             })
+            ->with(['company'])
+
             ->orderBy('created_at', $order)
             ->paginate($limit)
             ->withQueryString();

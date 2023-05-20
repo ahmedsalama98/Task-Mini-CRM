@@ -42,7 +42,8 @@ class EmployeeController extends Controller
                 return $q->whereDate('created_at', '<=', $request->to);
             })
 
-            ->with(['company'])
+
+
 
             ->orderBy('created_at', $order)
             ->paginate($limit)
